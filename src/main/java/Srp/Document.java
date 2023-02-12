@@ -37,4 +37,21 @@ public class Document {
     public void setCreateDate(LocalDateTime createDate) {
         this.createDate = createDate;
     }
+
+    @Override
+    public String toString() {
+        return "Document{" +
+                "content='" + content + '\'' +
+                ", author='" + author + '\'' +
+                ", createDate=" + createDate +
+                '}';
+    }
+
+    public void saveToPdf(){
+        System.out.println("Saving document to pdf");
+    }
+
+    public void display(){
+        System.out.println(this);
+    }
 }
