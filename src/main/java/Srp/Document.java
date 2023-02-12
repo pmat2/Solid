@@ -46,12 +46,4 @@ public class Document {
                 ", createDate=" + createDate +
                 '}';
     }
-
-    public void saveToPdf(){
-        System.out.println("Saving document to pdf");
-    }
-
-    public void display(){
-        System.out.println(this);
-    }
 }

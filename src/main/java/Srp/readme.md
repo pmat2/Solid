@@ -2,3 +2,4 @@
 2. Add to document functionalities:
 - save
 - display
+3. Move functionalities to separate classes
