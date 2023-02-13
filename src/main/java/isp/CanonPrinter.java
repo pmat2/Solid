@@ -1,6 +1,6 @@
 package isp;
 
-public class CanonPrinter implements Printer {
+public class CanonPrinter implements GreyPrinter, ColorPrinter, Scanner, Copier{
     @Override
     public void printGrey() {
         System.out.println("Cannon printer prints in grey scale");

@@ -4,3 +4,4 @@
 - scan
 - copy
 2. Problem occurs of implementation unable to satisfy all methods from Printer
+3. Replace god-interface with dedicated smaller interfaces
