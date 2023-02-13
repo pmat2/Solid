@@ -1,8 +1,8 @@
 package di;
 
-public class EmailNotification {
+public class EmailNotification implements NotificationSender{
 
     public void sendNotification(User user){
-        System.out.println("Notifying user: " + user.getUsername());
+        System.out.println("Sending notification via mail to: " + user.getUsername());
     }
 }
