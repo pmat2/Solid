@@ -1,16 +1,16 @@
 package ocp;
 
-import ocp.Document;
-
 public class DocumentPersistence {
 
     private final Document document;
+    private final DocumentSaver saver;
 
-    public DocumentPersistence(Document document) {
+    public DocumentPersistence(Document document, DocumentSaver saver) {
         this.document = document;
+        this.saver = saver;
     }
 
-    public void saveToPdf(){
-        System.out.println("Saving document to pdf " + this.document);
+    public void save() {
+        saver.save(this.document);
     }
 }
