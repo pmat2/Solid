@@ -16,8 +16,4 @@ public class Warrior extends Character {
         System.out.println("Warrior fights");
     }
 
-    @Override
-    public void castSpell(Spell spell) {
-        throw new UnsupportedOperationException();
-    }
 }

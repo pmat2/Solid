@@ -1,6 +1,6 @@
 package lsp;
 
-public class Sorcerer extends Character{
+public class Sorcerer extends Character implements Caster{
 
     public Sorcerer(String name) {
         super(name);

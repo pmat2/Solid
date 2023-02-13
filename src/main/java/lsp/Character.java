@@ -25,5 +25,4 @@ public abstract class Character {
 
     public abstract void move();
     public abstract void meleeFight();
-    public abstract void castSpell(Spell spell);
 }
