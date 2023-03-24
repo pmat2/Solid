@@ -1,4 +1,4 @@
-package Srp;
+package srp;
 
 import java.time.LocalDateTime;
 
